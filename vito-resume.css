@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+body{
+    font-family: "Castoro";
+    line-height: 1.5;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 160px;
+}
+h1{
+    font-size: 128px;
+}
+.header img{
+    display: block;
+    margin: 0 auto;
+}
+.title2{
+    width: 50%;
+    margin-left: auto;
+}
+.Introduction{
+    background-color: #EFEFEF;
+}
+.Intro-words{
+    font-size: 40px;
+    padding: 50px 0px;
+    width: 50%;
+    margin-left: auto;
+}
+.content{
+    margin-top: 80px;
+}
+.block{
+    width: 50%;
+    margin-right: auto;
+}
+.block h2{
+    height: 60px;
+    font-size: 40px;
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.block li{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.block p{
+    color: #949494;
+    font-style: italic;
+}
+.long-words{
+    padding-right: 65px;
+}
+.footer{
+    background-color: black;
+    margin-top: 160px;
+}
+.contact-list{
+    width: 280px;
+    padding: 64px 0;
+    margin: 0 auto;
+}
+.contact-list li{
+    display: inline-block;   
+}
+.item{
+    margin-right: 40px;
+}
+.contact-list img{
+    display: block;
+    margin: 0 auto;
+}
